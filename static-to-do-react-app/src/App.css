@@ -1,0 +1,26 @@
+.profile-card {
+    color: rgb(104, 103, 103);
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 1px;
+    border-radius: 25px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 10px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.user-name {
+    color:midnightblue;
+}
+
+.user-age {
+    color:indigo;
+}
+
+.user-bio {
+    color:darkslategray;
+}
