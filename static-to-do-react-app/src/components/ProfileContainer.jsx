@@ -18,11 +18,12 @@ const ProfileContainer = () => {
 
     return (
         <div>
-            {userProfiles.map((user, index) => <ProfileCard  
-                key={index}
-                name={user.name} 
-                age={user.age} 
-                bio={user.bio} 
+            {userProfiles.map((user, index) => 
+                <ProfileCard
+                    key={index}
+                    name={user.name} 
+                    age={user.age} 
+                    bio={user.bio} 
                 />)
             }
         </div>
